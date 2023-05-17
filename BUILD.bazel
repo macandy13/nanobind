@@ -15,7 +15,7 @@ cc_library(
         include = [
             "include/nanobind/*.h",
             "include/nanobind/stl/*.h",
-            "include/nanobind/detail/*.h",
+            "include/nanobind/stl/detail/*.h",
         ],
     ),
     srcs = [
